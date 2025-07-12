@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Error - Page Not Found</title>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .error-container {
+      text-align: center;
+    }
+    h1 {
+      font-size: 48px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    a {
+      color: #337ab7;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #23527c;
+    }
+  </style>
+</head>
+<body>
+  <div class="error-container">
+    <h1>Sorry If U are Seeing This It Means That Something Is wrong - A VERY BAD 404 ERROR</h1>
+    <p>The page you're looking for doesn't exist or has been removed or there can be a chance that I made a mistake so sorry 
+      <a href=index2.html>SEE TRENDING GAMES</a>.</p>
+    <p>Try searching for something else or visit our <a href="/">homepage</a>.</p>
+	<h1><p>You will be redirected to the previous page in <span id="countdown">10</span> seconds.</p></h1>
+    <p>If you are not redirected, click <a href="javascript:history.back()">here</a>.</p>
+
+    <script>
+        let countdown = 10;
+        const interval = setInterval(() => {
+            document.getElementById("countdown").innerText = countdown;
+            countdown--;
+            if (countdown < 0) {
+                clearInterval(interval);
+                history.back();
+            }
+        }, 1000);
+    </script>
+  </div>
+</body>
+</html>

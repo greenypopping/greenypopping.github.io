@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <title>Staff Login</title>
+	<link rel="stylesheet" href="log.css">
+<!--    <style>
+body {
+			background-color: #b7cfe9;
+			background-size: 100% 100vh;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			font-family: Arial, sans-serif;
+		}
+        .container {
+			max-width: 300px;
+			margin: 40px auto;
+			padding: 20px;
+			background-color: #f2f2f2;
+			border: 5px solid #666699;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		        .login-container {
+            width: 301px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+	    .subcontainer {
+			max-width: 300px;
+			margin: 40px auto;
+			padding: 20px;
+			background-color: #f2f2f2;
+			border: 5px solid #666699;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+        .login-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+		        .login-form {
+            margin-top: 20px;
+        }
+        
+        .login-form input[type="text"], .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .submitbutton {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .login-form input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+				/* Added styles for larger submit button */
+		.submit-button {
+			padding: 15px 30px;
+			font-size: 18px;
+			border: none;
+			border-radius: 10px;
+			background-color: #ff5050;
+			color: #fff;
+			cursor: pointer;
+		}
+		.submit-button:hover {
+			background-color: #ff6666;
+		}
+    </style>-->
+</head>
+<body> <!-- partial:index.partial.html --> 
+<section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+
+    <div class="signin">
+        <div class="content">
+            <h2>Login</h2>
+		<div class="form">
+		
+            <form id="login-form" >
+            
+           <!-- <label for="id">Staff ID:</label>-->
+		   <div class="inputBox"> 
+            <input type="text" id="id" ><i>Username<i><br><br>
+			</div>
+			<br> 
+           <!-- <label for="password">Password:</label>-->
+		   <div class="inputBox">
+		   
+            <input type="password" id="password" ><i>Password<i>
+			
+			<br><br>
+			
+			</div>
+			<br>
+			<div class="links"> <a href="#">Forgot Password</a>   
+			<br>
+			</div>
+			<br>
+			
+			<div class="inputBox" >
+			
+            <input type="submit" value="Login">
+			
+			</div>
+			</div>
+			</div>
+			</div>
+			
+        </form>
+		          <div id="error-message"></div>
+        </div>
+        
+    
+	</section>
+
+    <script>
+
+const form = document.getElementById("login-form");
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const id = document.getElementById("id").value;
+  const password = document.getElementById("password").value;
+  const verifiedId = "admin";
+  const verifiedPassword = "lol";
+
+  if (id === verifiedId && password === verifiedPassword) {
+    document.getElementById("error-message").innerHTML = "Login successful!";
+    window.location.href = 'staff-dashboard.html';
+
+    $.ajax({
+      type: "POST",
+      url: "https://dibyam.great-site.net/mphpstff/login.php",
+      crossDomain: true,
+      contentType: "application/json",
+      data: JSON.stringify({
+        id: id,
+        password: password,
+        timestamp: new Date().toISOString()
+      }),
+      success: function(response) {
+        console.log(response);
+      },
+      error: function(xhr, status, error) {
+        console.log(xhr.responseText);
+      }
+    });
+  } else {
+    document.getElementById("error-message").innerHTML = "Invalid ID or password.";
+  }
+});
+    </script>
+</body>
+</html>

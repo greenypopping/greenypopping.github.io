@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/dibyam
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dibyam1.github.io
+  * I am dibyam (https://keybase.io/dibyam) on keybase.
+  * I have a public key with fingerprint 1485 D686 A6CF F297 7FD1  48A6 2DE9 C755 91B4 CF31
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101477ecc824af666338c3bcf9c39982501f4dd779d1f94dd1d290ae4ba0daf21ad0a",
+      "fingerprint": "1485d686a6cff2977fd148a62de9c75591b4cf31",
+      "host": "keybase.io",
+      "key_id": "2de9c75591b4cf31",
+      "kid": "0101477ecc824af666338c3bcf9c39982501f4dd779d1f94dd1d290ae4ba0daf21ad0a",
+      "uid": "9bc2a10fe64cc4731bbdc4ffb4496e19",
+      "username": "dibyam"
+    },
+    "service": {
+      "hostname": "dibyam1.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1732171156,
+  "expire_in": 157680000,
+  "prev": "558fba0a472c957d3ec522f1bfaf5b3affd2be5f64ad5704721d007a6e3a3b7e",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIkAnicrVJbSFRBGF5LExdMEQnbfIiTFpTpmXObPWtaEpb10FPSg8Y21/Wg7m5n
+z6rrBUoDqwdLMIsIyu4JlQX1kpDdKLBQqI0IioIuRkTZhS5QNsfqIeixeZmZ//++
+b77vZ65nzvR4UyY+P2o++hLClNEr++OeUHmyr03CEZqQAm1SPZveWANlMSdYb1Ep
+IMlABhqEjBC/oiFuGIaq+omKCTeJapp+RZcB1yiF0KSAm+IEqGLKiGkYyRRxBSAq
+I6lI4lY4xOyobYUdIQs0v04Nv4EMwrliQsipKCFDocwkUNdNgDXCVSCIdZGYyxDm
+MIqxYisiauISnLb3D/x/9h2fljMxURCQOTM0QjSoAowp0TjHmmYaDJguMMbsMGpk
+Ak0tnECNUkeRJGpNFmHuWN0cf/VBcchy6uL4V6SoHXEiJNIg2nWOE40FXLqTiLr4
+ZoaDv5WC2ApTMUrBaGJ2zIqEpQAQSOJYrjSAqgIgALpRJLGWqGWzoOUidGj4ZbHc
+d1iTkNR1PxdJkQYVYuqQqozoisIB5ojrWEWcUwUznRsaojqUBQxQWYbIYCpSMWSS
+m21zOCIFVGEThYRkzAqFkRO3mdRxdaQ21ZPi9cxKm+F+MY83I/vPx6vITf+ed2jO
+re+js+cNXErR9NWbfJUXch50Zy3Nyqg9Pja+Yb3ku7E1VLGl9eb6uccWZOb3Lf2x
+/X6PvWbvkctPVhzlkyurlcGHieFkmvf24ck9NWsz3h0e2/gha3981qLVvh8jaF9y
+YcWSgS1PWd7Ujp3pzyvgq13VyxNV62B/YZm87X1ZzsV3yTdN3R3XTpQPZXt7t39c
+YlstX752Fn2uzvk4Mfi2NbO7terOSU/XOV/w4NercvXusYJVVyZs0vviZlX2xWW5
+j499ekBGu06c6q/0mVp7aXNJT87ZjhUF914na4Zr8gvn1+Z+67wxo/GZNmm2D02V
+gvTjycX950+Pp+a/Kjlz7+6Bn5w6Q1E=
+=roJj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dibyam
+
+==================================================================

@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<title>
+About Me
+</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<div class= "container">
+<body>
+<h1>HEYY GAT YOU THERE WELL I DIDN'T START TO DEVELOP THIS YET HEHE</H1>
+<a href="index.html">GO BACK (FOR NOW)</a>
+<h3>you are currently looking at an undevloped website so down there is a bunch of my experiments on my site so if u are a visitor of my website then i will tell u not to click on anything and directly <a href="index.html">GO BACK </a> to the homepage.<h3>
+    <div id="respond">  
+      <h3>Leave a Comment</h3>  
+    <br>  
+      <form action="commentLater.php" method="post" id="commentform">  
+    <br>  
+        <label for="comment_author" class="required">Enter your name:</label>  
+        <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">  
+      
+        <br>  
+        <label for="comment" class="required">  
+    <br>  
+    Enter your message</label>  
+    <br>  
+        <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>  
+    <br>  
+        
+        <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />  
+        <input name="submit" type="submit" value="Submit comment" />  
+      </form>  
+    </div>  
+	    <textarea 
+        name="" 
+        rows="" 
+        cols="" 
+        class="" 
+        id="" 
+        dir="" 
+        lang="" 
+        title="" 
+        style="" 
+        readonly="" 
+        disabled="" 
+        tabindex="" 
+        onfocus="" 
+        onblur="" 
+        onselect="" 
+        onchange="" 
+        onclick="" 
+        ondbclick="" 
+        onmousedown="" 
+        onmouseup="" 
+        onmouseover="" 
+        onmousemove="" 
+        onmouseout="" 
+        onkeypress="" 
+        onkeydown="" 
+        onkeyup="" > 
+    ​ 
+        (this is where the user can type comments and stuff) 
+    ​ 
+    </textarea> 
+	    <div class="comment">
+    <textarea id="title" type="text "rows="2" cols="4" onkeyup="Allow()" placeholder="write a comment......"></textarea>
+    <input type="submit" value="Post" onclick="insert()" style="width:20px;" /></form>
+    </div>
+    <div id="display"></div>
+    <script type="text/javascript">
+    var titles = [];
+    var titleInput = document.getElementById("title");
+    var messageBox = document.getElementById("display");
+    function Allow()
+    {
+    if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+    {
+    user.title.value="";
+    alert("Please Enter only alphabets");
+    }
+    window.location.reload()
+    }
+    function insert () {
+    titles.push(titleInput.value);
+    clearAndShow();
+    }
+    function clearAndShow ()
+    {
+    titleInput.value = "";
+    messageBox.innerHTML = "";
+    messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
+    }
+    </script>
+	<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+  </head>
+  <body>  
+    <div class="info">
+      <label for="example">Enter Text
+      </label>
+      <input id="example" type="text"
+             name="Ntext" size="20">
+      <input id="sent" type="submit"  
+             value="Send"> 
+  </div>
+    <p id="para">      
+    </p>
+  </body>
+  <script>
+    window.onclick = function(e)
+    {   var id =  e.target.id;   
+     if (id === 'sent')  
+     { var txt = document.getElementById('example').value    
+       $( "#para" ).empty().append( txt );
+     }
+    }
+  </script>
+</html>
+ <form action="mailto:dibyam.mukhe@gmail.com" method="post" enctype="text/plain" >  
+    COMMENT:<input type="text" name="comment">  
+    EMAIL:<input type="text" name="name">  
+    <input type="submit" name="submit" value="Submit">  
+</form> 
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mzzpqynl"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+</body>
+
+</html>

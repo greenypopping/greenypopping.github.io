@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta content="origin" name="referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<link rel="canonical" href="dibyam1.github.io">
+	<meta property="og:title" content="WELCOME TO DIBYAMS WEBSITE">
+	<meta property="og:site_name" content="Dibyams site">
+	<meta property="og:description" content="a great welcome to my website. here u can find some free online games here and don't forget to subscribe to my channel">
+	<meta property="og:image" content="/apple-touch-icon.png">
+	<meta property="og:url" content="https://dibyam1.github.io">
+	<meta property="og:type" content="website">
+<title>WELCOME TO DIBYAM'S WEBSITE!</title>	
+<meta name="description" content="a great welcome to my website u can find some free online games here and don't forget to subscribe to my channel.">
+<meta content="/apple-touch-icon.png">
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="/navbarfiles/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style>
+body {
+			background-image: url("BACKGROUND.png");
+			background-size: 100% 100vh;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			font-family: Arial, sans-serif;
+		}
+	</style>
+	
+</head>
+<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Welcome To My Website</h2>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col">
+					<a class="navbar-brand" href="index.html">Dibyam <span>Popping</span></a>
+				</div>
+				<div class="col d-flex justify-content-end">
+					<div class="social-media">
+		    		<p class="mb-0 d-flex">
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+		    		</p>
+	        </div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	    
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="fa fa-bars"></span> Menu
+	      </button>
+				<form action="#" class="searchform order-lg-last">
+          <div class="form-group d-flex">
+            <input type="text" class="form-control pl-3" placeholder="Search">
+            <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+          </div>
+        </form>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav mr-auto">
+	        	<li class="nav-item active"><a href="/index.html" class="nav-link">Home</a></li>
+	        	<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Page</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+              	<a class="dropdown-item" href="#">Page 1</a>
+                <a class="dropdown-item" href="#">Page 2</a>
+                <a class="dropdown-item" href="#">Page 3</a>
+                <a class="dropdown-item" href="#">Page 4</a>
+              </div>
+            </li>
+	        	<li class="nav-item"><a href="/index2.html" class="nav-link">Games</a></li>
+	        	<li class="nav-item"><a href="/index1.html" class="nav-link">About Me</a></li>
+	          <li class="nav-item"><a href="/index3.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+
+	</section>
+	<!--
+<header>
+		<nav class="top-banner">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index1.html">About Me/YtChannel</a></li>
+				<li><a href="index2.html">Some Online Games(free)</a></li>
+				<li><a href="stafflogin.html">staff login</a></li>
+			</ul>
+		</nav>
+	</header>  
+ -->
+	<!--the thing you down is not a note it is one of my experiments
+	 <div class="navbar">
+	 
+         <a href="index.html">Homepage</a>
+         <a href="index1.html">About Me and my yt channel</a>
+         <a href="index2.html">some games i like</a>
+</div >
+it ends here-->
+<script src="navbarfiles/js/jquery.min.js"></script>
+  <script src="navbarfiles/js/popper.js"></script>
+  <script src="navbarfiles/js/bootstrap.min.js"></script>
+  <script src="navbarfiles/js/main.js"></script>
+<div class="main">
+  <p></p>
+</div> 
+	<script type="application/Id+json">
+{
+"@context": "schema.org",
+"@type": "WebPage",
+"name": "Dibyam's Website",
+"url": "dibyam1.github.io",
+"description": "A great welcome to my website.
+Here you can find some free online games and don't forget to subscribe to my channel.",
+"image": "/apple-touch-icon.png", "
+publisher": {
+"@type": "Person",
+"name": "Dibyam Mukherjee",
+"url": "dibyam1.github.io"
+}
+}
+</script>
+	<div class="container1">
+		<!-- DONT COPY THIS PLZZ -->
+		<h1>Welcome to DIBYAM'S channel!</h1>
+  <h2>Hope You like my website and my channel!</h2>
+		<p>Subscribe,like and share for more content!</p>
+    <p>one thing i will tell you that this site is under devlopment</p>
+	<p><a href="https://www.youtube.com/@dibyammukherjee">
+<img src="my_channel.PNG" alt="MY YOUTUBE CHANNEL" width="600" height="162">
+</a></p>
+	</div>
+<div class="aboutme">
+<a href="index1.html">About Me</a>
+</div>
+	<div class="games">
+<a href="index2.html">some browzer games that i like to play</a>
+</div>
+	<div class="games">
+<a href="index3.html">wanna suggest me something then u can click here</a>
+</div>
+<div class="games">
+<a href="/redirectadminlogin.html">ADMIN LOGIN(DONOTCLICK)</a>
+</div>
+<div class="bottom-part">
+	<p>
+		hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+	</p>
+</div>
+</body>
+</html>

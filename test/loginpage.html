@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Staff Login</title>
+  <style>
+    /* Your styles here */
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-header">
+      <h2>Login</h2>
+    </div>
+    <form id="login-form" class="login-form">
+      <input type="text" id="id" placeholder="Username"><br><br>
+      <input type="password" id="password" placeholder="Password"><br><br>
+      <button type="submit" class="submit-button">Login</button>
+    </form>
+    <div id="error-message"></div>
+    <div id="login-timestamp"></div>
+  </div>
+  
+  <script>
+    const form = document.getElementById("login-form");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const id = document.getElementById("id").value;
+      const password = document.getElementById("password").value;
+      
+      // Static verification data
+      const verifiedId = "admin";
+      const verifiedPassword = "lol";
+      
+      if (id === verifiedId && password === verifiedPassword) {
+        const timestamp = new Date().toLocaleString();
+        localStorage.setItem("loginTimestamp", timestamp);
+        document.getElementById("login-timestamp").innerHTML = `Logged in at: ${timestamp}`;
+        document.getElementById("error-message").innerHTML = "Login successful!";
+        window.location.href = 'staff-dashboard.html';
+      } else {
+        document.getElementById("error-message").innerHTML = "Invalid ID or password.";
+      }
+    });
+  </script>
+</body>
+</html>
