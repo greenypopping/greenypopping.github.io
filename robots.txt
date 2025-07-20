@@ -4,7 +4,7 @@ User-agent: *
 Allow: /
 Allow: /*.html
 Allow: /*.css
-
+Allow: /*.js
 # Disallow crawling of sensitive areas
 Disallow: /admin
 Disallow: /login
