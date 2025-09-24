@@ -1,107 +1,92 @@
-/*.card{
-  margin: 0 auto;
-  padding: 2em;
-  width: 800px;
-  background: #1c1f2b;
-  text-align: center;
-  border-radius: 10px;
-  position: relative;
-}         	*/
-          .container1 {
-			width: 800px;
-			margin: 0px auto;
-			padding: 2em;
-			background: #99ccff;
-			border-radius: 10px;
-      position: relative;
-		}
-    @property --angle{
-  syntax: "<angle>";
-  initial-value: 0deg;
-  inherits: false;
+/* styles.css */
+.container1 {
+width: 800px;
+margin: 0px auto;
+padding: 2em;
+background: #99ccff;
+border-radius: 10px;
+position: relative;
 }
-
+@property --angle{
+syntax: "<angle>";
+initial-value: 0deg;
+inherits: false;
+}
 .container1::after, .container1::before{
-  content: '';
-  position: absolute;
-  height: 103%;
-  width: 102%;
-  background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  z-index: -1;
-  padding: 3px;
-  border-radius: 10px;
-  animation: 3s spin linear infinite;
+content: '';
+position: absolute;
+height: 103%;
+width: 102%;
+background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+top: 50%;
+left: 50%;
+translate: -50% -50%;
+z-index: -1;
+padding: 3px;
+border-radius: 10px;
+animation: 3s spin linear infinite;
 }
 .container1::before{
-  filter: blur(3rem);
+filter: blur(3rem);
 }
 @keyframes spin{
-  from{
-    --angle: 0deg;
-  }
-  to{
-    --angle: 360deg;
-  }
+from{
+--angle: 0deg;
 }
-  .aboutme {
-   max-width: 100px;
-   margin: 40px auto;
-   padding: 20px;
-   background-color: #cfd1d4;
-   border: 1px solid #ff5050;
-   border-radius: 1px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-		.games {
-   max-width: 100px;
-   margin: 40px auto;
-   padding: 20px;
-   background-color: #cfd1d4;
-   border: 1px solid #ff5050;
-   border-radius: 1px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  .bottom-info {
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin-top: 20px;
-    border-top: 1px solid #ccc;
-  }
-  
-  .bottom-info h2 {
-    font-weight: bold;
-  }
-  
-  .bottom-info ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .bottom-info li {
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  .bottom-info a {
-    text-decoration: none;
-    color: #337ab7;
-  }
-  
-  .bottom-info a:hover {
-    color: #23527c;
-  }
-  /* Add CSS to make the sections side by side */
-  .columns {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .column {
+to{
+--angle: 360deg;
+}
+}
+.aboutme {
+max-width: 100px;
+margin: 40px auto;
+padding: 20px;
+background-color: #cfd1d4;
+border: 1px solid #ff5050;
+border-radius: 1px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.games {
+max-width: 100px;
+margin: 40px auto;
+padding: 20px;
+background-color: #cfd1d4;
+border: 1px solid #ff5050;
+border-radius: 1px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.bottom-info {
+background-color: #f2f2f2;
+padding: 20px;
+margin-top: 20px;
+border-top: 1px solid #ccc;
+}  
+.bottom-info h2 {
+font-weight: bold;
+}  
+.bottom-info ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}  
+.bottom-info li {
+margin-bottom: 10px;
+font-weight: bold;
+}  
+.bottom-info a {
+text-decoration: none;
+color: #337ab7;
+}
+.bottom-info a:hover {
+color: #23527c;
+}
+/* Add CSS to make the sections side by side */
+.columns {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.column {
     flex-basis: 30%;
     margin: 20px;
   }
@@ -121,15 +106,6 @@
     align-items: center; /* Center vertically */
     margin: 40px auto; /* Reduce vertical spacing */
   }
-
-  /*max-width: 100px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: #cfd1d4;
-  border: 1px solid #ff5050;
-  border-radius: 1px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-
   .custom-button {
     background-color: #4CAF50; /* Green background */
     border: none; /* Remove border */
@@ -149,236 +125,3 @@
   background-color: red; /* Red background on hover */
   color: white; /* Keep text white */
 }
-
-  
- /* The navigation bar */
- /* dont mess around here
-.navbar {
-  overflow: hidden;
-  background-color: #e46be8;
-  position: fixed; /* Set the navbar to fixed position 
-  top: 0; /* Position the navbar at the top of the page 
-  width: 100%; /* Full width */
-  
- 
- /*
-.top-banner {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #333;
-  color: #fff;
-  padding: 0.5em;
-  text-align: center;
-  height: 40px;
-}
-
-.top-banner ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;  
-}
-
-.top-banner li {
-  margin-right: 10px;
-  
-}
-
-.top-banner a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.top-banner a:hover {
-  background-color: #555;
-  padding: 20px;
-  border-radius: 5px;
-}
- Links inside the navbar 
-.navbar a {
-  float: left;
-  display: block;
-  color: #4dff4d;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change background on mouse-over 
-.navbar a:hover {
-  background: #;
-  color: ;
-}
- /*
-  header {  
-    background-color: orange;  
-    position: fixed;  
-    left: 0;  
-    right: 0;  
-    top: 5px;  
-    height: 30px;  
-    display: flex;  
-    align-items: center;  
-    box-shadow: 0 0 25px 0 black;  
-    }  
-    header * {  
-    display: inline;  
-    }  
-    header li {  
-    margin: 20px;  
-    }  
-    header li a {  
-    color: blue;  
-    text-decoration: none;  
-    }  
-  header a:hover {
-   background: green;
-   color: green;
-   }
-.btn {
-    background: hsl(var(--hue), 98%, 80%);
-    border: none;
-    border-radius: 7px;
-    cursor: pointer;
-    color: black;
-    font: 600 1.05rem/1 "Nunito", sans-serif;
-    letter-spacing: 0.05em;
-    overflow: hidden;
-    padding: 1.15em 3.5em;
-    min-height: 3.3em;
-    position: relative;
-    text-transform: lowercase;
-}
-
-.btn--yellow {
-    --hue: 46;
-}
-
-.btn--green {
-    --hue: 163;
-}
-
-.btn--purple {
-    --hue: 244;
-}
-
-.btn--red {
-    --hue: 0;
-}
-
-.btn--blue {
-    --hue: 210;
-}
-
-.btn:active,
-.btn:focus {
-    outline: 3px solid hsl(calc(var(--hue) + 90), 98%, 80%);
-}
-
-.btn+.btn {
-    margin-top: 2.5em;
-}
-
-.btn__txt {
-    position: relative;
-    z-index: 2;
-}
-
-.btn__bg {
-    background: hsl(var(--hueBg), 98%, 80%);
-    border-radius: 50%;
-    display: block;
-    height: 0;
-    left: 50%;
-    margin: -50% 0 0 -50%;
-    padding-top: 100%;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    transform: scale(0);
-    transform-origin: 50% 50%;
-    transition: transform 0.2s cubic-bezier(0.5, 1, 0.89, 1);
-    z-index: 1;
-}
-
-.btn__bg:nth-of-type(1) {
-    --hueBg: calc(var(--hue) - 90);
-    transition-delay: 0.1875s;
-}
-
-.btn__bg:nth-of-type(2) {
-    --hueBg: calc(var(--hue) - 180);
-    transition-delay: 0.125s;
-}
-
-.btn__bg:nth-of-type(3) {
-    --hueBg: calc(var(--hue) - 270);
-    transition-delay: 0.0625s;
-}
-
-.btn__bg:nth-of-type(4) {
-    --hueBg: calc(var(--hue) - 360);
-    transition-delay: 0s;
-}
-
-.btn:hover .btn__bg,
-.btn:focus .btn__bg,
-.btn:active .btn__bg {
-    transform: scale(1.5);
-    transition: transform 0.4s cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-.btn:hover .btn__bg:nth-of-type(1),
-.btn:focus .btn__bg:nth-of-type(1),
-.btn:active .btn__bg:nth-of-type(1) {
-    transition-delay: 0.125s;
-}
-
-.btn:hover .btn__bg:nth-of-type(2),
-.btn:focus .btn__bg:nth-of-type(2),
-.btn:active .btn__bg:nth-of-type(2) {
-    transition-delay: 0.25s;
-}
-
-.btn:hover .btn__bg:nth-of-type(3),
-.btn:focus .btn__bg:nth-of-type(3),
-.btn:active .btn__bg:nth-of-type(3) {
-    transition-delay: 0.375s;
-}
-
-.btn:hover .btn__bg:nth-of-type(4),
-.btn:focus .btn__bg:nth-of-type(4),
-.btn:active .btn__bg:nth-of-type(4) {
-    transition-delay: 0.5s;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
