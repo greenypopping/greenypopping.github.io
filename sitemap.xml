@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://greenypopping.github.io/</loc>
-<lastmod>2025-09-24T12:58:43+05:30</lastmod>
+<lastmod>2025-10-30T18:56:29+05:30</lastmod>
 </url>
 <url>
 <loc>https://greenypopping.github.io/404.html</loc>
@@ -22,7 +22,7 @@
 </url>
 <url>
 <loc>https://greenypopping.github.io/index2.html</loc>
-<lastmod>2025-09-24T12:27:27+05:30</lastmod>
+<lastmod>2025-10-30T18:56:29+05:30</lastmod>
 </url>
 <url>
 <loc>https://greenypopping.github.io/index3.html</loc>
@@ -63,5 +63,9 @@
 <url>
 <loc>https://greenypopping.github.io/navbarfiles/main.html</loc>
 <lastmod>2025-07-12T14:07:51+05:30</lastmod>
+</url>
+<url>
+<loc>https://greenypopping.github.io/old_files/indexbackupincase.html</loc>
+<lastmod>2025-10-30T18:56:29+05:30</lastmod>
 </url>
 </urlset>
